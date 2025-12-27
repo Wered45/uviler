@@ -6,6 +6,8 @@ join users on orders.id_user = users.id_user';
 $tovar = $conect->query($sql);
 ?>
 <h2 class="text-center">Мои заказы</h2>
+
+<a href="cabinet.php">Перейти в кабипнет</a>
 <table class="table">
   <thead>
     <tr>
